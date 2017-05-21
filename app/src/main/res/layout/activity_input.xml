@@ -35,38 +35,26 @@
         android:background="#6de890" />
 
     <TextView
-        android:text="To start, enter your name and age. "
         android:layout_height="wrap_content"
         android:id="@+id/instructionTV"
         android:gravity="top|center_horizontal"
         android:textSize="20sp"
         android:layout_width="288dp"
         android:textColor="@android:color/black"
-        android:layout_marginTop="27dp"
+        android:layout_marginTop="100dp"
+        android:text="To start your journey, first, enter your name!"
         android:layout_below="@+id/welcomeTV"
         android:layout_alignLeft="@+id/welcomeTV"
         android:layout_alignStart="@+id/welcomeTV" />
-
-    <EditText
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="textPersonName"
-        android:text="Age"
-        android:ems="10"
-        android:layout_marginTop="11dp"
-        android:id="@+id/ageET"
-        android:textIsSelectable="false"
-        android:layout_below="@+id/nameET"
-        android:layout_alignLeft="@+id/nameET"
-        android:layout_alignStart="@+id/nameET"
-        android:background="@android:color/holo_green_light" />
 
     <Button
         android:text="Submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/ageET"
-        android:layout_centerHorizontal="true"
         android:id="@+id/idSubmit"
-        android:onClick="onClickIdSubmit" />
+        android:onClick="onClickIdSubmit"
+        android:layout_below="@+id/nameET"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="18dp" />
+
 </RelativeLayout>
