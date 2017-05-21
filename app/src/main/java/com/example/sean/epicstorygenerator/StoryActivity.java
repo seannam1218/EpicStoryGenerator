@@ -34,8 +34,8 @@ public class StoryActivity extends AppCompatActivity {
                 "Darkness enveloped this world, and kingdoms burned one after the other. " +
                 "All seemed lost for humanity, and it soon became apparent that the only hero that could save this world then was " + name
                 + " the " + adj + ". " + name + " rose from the ashes of the fallen kingdoms, and stood face to face with " + monster + ". "
-                + "Oh and his " + weapon + " was pretty legit as well. However, " + monster + " was like fricking powerful, so he raped " + name
-                + " and cut off his balls. Our hero, " + name + " ran away and died with his shitty " + weapon + ". The End."
+                + "Oh and his " + weapon + " was pretty legit as well. However, " + monster + " was like fricking powerful, so he slapped " + name
+                + " and punched his balls. Our hero, " + name + " ran away and died with his shitty " + weapon + ". The End."
         );
     }
 
